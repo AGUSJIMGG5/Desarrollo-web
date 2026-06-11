@@ -1,0 +1,18 @@
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 11px;
+    background-color: #ffffff;
+    color: #FD98FB;
+}
+
+@keyframes color-change {
+    0% { color: rgb(133, 129, 129); }
+    25% { color: white; }
+    50% { color: rgb(129, 173, 201); }
+    75% { color: rgb(34, 43, 48); }
+    100% { color: rgb(0, 0, 0); }
+    }
+
+h1:hover  {
+  animation: color-change 3s infinite;
+}
